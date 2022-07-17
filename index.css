@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+@media only screen and (min-width: 800px) {
+    .title {
+        padding: 0 19px;
+        color: white;
+        font-weight: 300;
+    }
+    .hours {
+        font-size: 0.9rem;
+    }
+    .hour {
+        font-size: 3rem;
+        padding: 10px 0;
+    }
+    .bok {
+        text-align: left;
+    }
+    .titles {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        color: white;
+    }
+    .stat {
+        margin: 10px 0;
+    }
+    .status {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: -252px;
+        right: -29px;
+        text-align: left;
+        color: white;
+        opacity: 0.7;
+        font-weight: 300;
+    }
+    .cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textImg {
+        margin-left: 7px;
+    }
+    .headImg {
+        width: 64px;
+        height: auto;
+        border: 3px solid white;
+        border-radius: 50%;
+        position: relative;
+        left: -55px;
+        margin: 28px 0px;
+    }
+    .p2 {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 300;
+    }
+    .gridCont {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(220px, auto);
+        width: 70%;
+        margin: 100px auto;
+    }
+    .box1 {
+        position: relative;
+        height: 180px;
+        grid-row: 1/3;
+        border-radius: 5%;
+        background-color: hsl(235, 46%, 20%);
+        align-self: end;
+    }
+    .bokk {
+        position: relative;
+        bottom: 270px;
+        height: 300px;
+        border-radius: 5%;
+        background-color: hsl(246, 80%, 60%);
+    }
+    .box5 {
+        grid-column: 2/3;
+    }
+    .box6 {
+        grid-column: 3/4;
+    }
+    .box7 {
+        grid-column: 4/5;
+    }
+    .box {
+        border-radius: 20px;
+        text-align: center;
+        position: relative;
+    }
+    .bok {
+        background-color: aqua;
+    }
+    .bok {
+        position: relative;
+        height: 179px;
+        bottom: -45px;
+        border-radius: 13px;
+        background-color: hsl(235, 46%, 20%);
+    }
+}
+
+.box2 {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.box3 {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.box4 {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.box5 {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.box6 {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.box7 {
+    background-color: hsl(43, 84%, 65%);
+}
+
+@media only screen and (max-width: 799px) {
+    .headImg {
+        width: 64px;
+        height: auto;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin: 28px 10px;
+    }
+    .p1 {
+        font-size: 14px;
+        font-weight: 300;
+        opacity: 0.9;
+    }
+    .p2 {
+        font-size: 20px;
+    }
+    .box {
+        position: relative;
+        max-width: 300px;
+        height: 160px;
+        margin: 35px auto;
+        border-radius: 5%;
+        text-align: center;
+    }
+    .bok {
+        background-color: hsl(235, 46%, 20%);
+    }
+    .bok {
+        position: relative;
+        height: 120px;
+        bottom: -55px;
+        border-radius: 16px;
+    }
+    .box1 {
+        position: relative;
+        background-color: hsl(235, 46%, 20%);
+        height: 150px;
+        margin-top: 110px;
+    }
+    .bokk {
+        position: relative;
+        border-radius: 5%;
+        height: 136px;
+        background-color: hsl(246, 80%, 60%);
+        top: -60px;
+    }
+    .status {
+        display: flex;
+        color: white;
+        opacity: 0.7;
+        justify-content: space-between;
+        margin: -30px 29px 10px 29px;
+    }
+    .title,
+    .titles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        line-height: 1.8rem;
+    }
+    .titles {
+        position: relative;
+        top: 33px;
+        margin: 0px 20px;
+    }
+    .title {
+        position: relative;
+        top: 33px;
+        font-weight: lighter;
+        margin: 0px 20px;
+    }
+    .hours {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .hour {
+        font-size: 1.5rem;
+    }
+}
+
+.svg {
+    position: absolute;
+    right: 20px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.textImg {
+    text-align: left;
+    line-height: 1.5rem;
+    color: white;
+}
